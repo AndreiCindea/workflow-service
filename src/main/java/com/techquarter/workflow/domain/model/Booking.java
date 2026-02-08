@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "bookings")
@@ -30,10 +30,10 @@ public class Booking {
     private String destination;
 
     @Column(nullable = false)
-    private LocalDate departureDate;
+    private LocalDateTime departureDate;
 
     @Column(nullable = false)
-    private LocalDate returnDate;
+    private LocalDateTime returnDate;
 
     @Column(nullable = false)
     private Integer travelerCount;
