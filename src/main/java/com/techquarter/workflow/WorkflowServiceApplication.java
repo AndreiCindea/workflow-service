@@ -1,4 +1,4 @@
-package com.techquarter.workflow_service;
+package com.techquarter.workflow;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

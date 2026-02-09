@@ -16,6 +16,9 @@ public class BookingMapper {
                 .destination(booking.getDestination())
                 .departureDate(booking.getDepartureDate())
                 .returnDate(booking.getReturnDate())
+                .travelerCount(booking.getTravelerCount())
+                .costCenterRef(booking.getCostCenterRef())
+                .tripPurpose(booking.getTripPurpose())
                 .status(booking.getStatus())
                 .build();
     }

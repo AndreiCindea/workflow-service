@@ -18,5 +18,8 @@ public class BookingResponse {
     private String destination;
     private LocalDateTime departureDate;
     private LocalDateTime returnDate;
+    private Integer travelerCount;
+    private String costCenterRef;
+    private String tripPurpose;
     private BookingStatus status;
 }
