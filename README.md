@@ -145,7 +145,6 @@ curl -X POST http://localhost:8080/bookings \
 
 #### 1. Build the Application
 ```bash
-cd /Users/georgianac/Desktop/Learning/workflow-service
 mvn clean install -DskipTests
 ```
 
